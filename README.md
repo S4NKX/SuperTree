@@ -24,7 +24,7 @@ It also supports sorting by size, showing file sizes in KB, MB, GB or TB, and di
 
 Before building **SuperTree**, make sure the required build tools are installed on your system.
 
-**Debian/Ubuntu/Kali/parrot:**
+**Debian/Ubuntu/Kali/Parrot:**
 ```bash
 sudo apt install build-essential -y
 ```
