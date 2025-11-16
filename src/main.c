@@ -23,7 +23,10 @@ void print_help() {
 
 int main(int argc, char *argv[]) {
     char path[PATH_MAX];
-    getcwd(path, sizeof(path));
+    if (getcwd(path, sizeof(path)) == NULL) {
+    perror("getcwd failed");
+    return 1; // or handle error
+    }
 
     int max_depth = -1;
     int show_dirs_only = 0;
