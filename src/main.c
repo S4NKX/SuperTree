@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
     char path[PATH_MAX];
     if (getcwd(path, sizeof(path)) == NULL) {
     perror("getcwd failed");
-    return 1; // or handle error
+    return 1; // error: getcwd failed
     }
 
     int max_depth = -1;
