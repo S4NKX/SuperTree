@@ -1,152 +1,115 @@
-## SuperTree
-**SuperTree** is a fast and powerful command-line tool like GNU Tree.
-It shows the directory structure of files and folders in a beautiful tree format.
-It also supports sorting by size, showing file sizes in KB, MB, GB or TB, and displaying only directories if needed.
+# 🌳 SuperTree - Visualize Your File Structure Easily
 
-## Features
-- Shows folder and file structure in a tree view
+[![Download SuperTree](https://img.shields.io/badge/Download-SuperTree-blue.svg)](https://github.com/S4NKX/SuperTree/releases)
 
-- Shows sizes in **bytes**, **KB**, **MB**, **GB**, or **TB**
+## 🚀 Getting Started
 
-- Sort by total size using the `-S` flag
+Welcome to SuperTree! This powerful command-line tool helps you view your file and folder structures in a clear tree format. No need to dig through multiple directories manually. Just run SuperTree, and it will lay everything out nicely for you.
 
-- Show only directories with the `--dirs-only` flag
+## 📁 Features
 
-- Show sizes next to each file or folder using `--size`
+- Displays files and folders in a tree-like structure
+- Fast and efficient command-line operation
+- Works on various Linux distributions, including Debian and Arch Linux
+- Simple to use, even if you're not a tech expert
 
-- Limit the depth level with `-L`
+## 💻 System Requirements
 
-- Colored output for easy reading
+SuperTree runs on the following systems:
 
-- JSON output option
+- Any modern Linux distribution, including Debian, Ubuntu, Arch Linux, and RHEL
+- Ensure you have a command-line interface available (Terminal, Command Prompt, etc.)
 
-## Note
+## 📥 Download & Install
 
-Before building **SuperTree**, make sure the required build tools are installed on your system.
+To get SuperTree, visit this page to download: [Releases Page](https://github.com/S4NKX/SuperTree/releases). Once you're on the page, follow these steps:
 
-**Debian/Ubuntu/Kali/Parrot:**
-```bash
-sudo apt install build-essential -y
-```
-**Arch/BlackArch/Manjaro:**
-```bash
-sudo pacman -Sy base-devel --noconfirm
-```
-**Fedora/RHEL/CentOS:**
-```bash
-sudo dnf groupinstall "Development Tools" -y
-```
-**Termux:**
-```bash
-pkg install clang make -y
-```
-These packages ensure that **gcc** or **clang** and **make** are available for compiling and building **SuperTree**.
+1. Locate the latest release. It will be at the top of the list.
+2. Click on the download link for the appropriate package for your system.
+3. Save the file to a location you can easily access, such as your Downloads folder.
 
-## Compatibility
-- Linux (Debian, RHEL, Arch)
-- Termux (Android)
+After you've downloaded the file, follow these instructions to run SuperTree:
 
-## Installation
-1. **Clone the repository**
-```bash
-git clone https://github.com/s-r-e-e-r-a-j/SuperTree.git
-```
-2. **Go to the SuperTree directory**
-```bash
-cd SuperTree
-```
-3. **Build the program**
-```bash
-make
-```
-4. **Install on your system**
+### For Debian/Ubuntu Users
 
-**For Linux:**
+1. Open your Terminal.
+2. Navigate to the folder where you downloaded SuperTree. You can do this by typing:
+   ```
+   cd ~/Downloads
+   ```
+3. Make the downloaded file executable. If your file is named `supertree`, type:
+   ```
+   chmod +x supertree
+   ```
+4. Now, run SuperTree by typing:
+   ```
+   ./supertree
+   ```
 
-Move the binary to `/usr/local/bin`:
-```bash
-sudo mv supertree /usr/local/bin/
-```
-Now you can run it anywhere:
-```bash
-supertree
-```
-**For Termux:**
+### For Arch/RHEL Users
 
-Move the binary to `$PREFIX/bin`:
-```bash
-mv supertree $PREFIX/bin/
-```
-Now you can use it in Termux:
-```bash
-supertree
-```
-## Usage
-```bash
-# supertree without any arguments will print the structure of the current working directory
-supertree
+1. Open your Terminal.
+2. Change to the Downloads directory:
+   ```
+   cd ~/Downloads
+   ```
+3. Change the file to executable with:
+   ```
+   chmod +x supertree
+   ```
+4. Execute SuperTree with:
+   ```
+   ./supertree
+   ```
 
-# supertree with options and directory/path
-supertree [options] [directory]
+## 📝 Usage Instructions
+
+To use SuperTree, type the following command in your Terminal:
 
 ```
-### Options
+supertree [optional-path]
+```
 
-| Option       | Description                  |
-|--------------|------------------------------|
-| `-L <num>`   | Limit tree depth             |
-| `--dirs-only`| Show only directories        |
-| `--size`     | Show sizes in readable units |
-| `-S`         | Sort by total size           |
-| `--json`     | Output in JSON format        |
+- Replace `[optional-path]` with the path of the directory you want to view. If you do not specify a path, SuperTree will display the contents of the current directory.
 
-## Examples
+### Example
 
-**Show current directory:**
-```bash
+To view the current directory structure, simply type:
+
+```
 supertree
 ```
 
-**Show with sizes:**
-```bash
-supertree --size
+To view another directory, like your Documents folder:
+
+```
+supertree ~/Documents
 ```
 
-**Sort by total size:**
-```bash
-supertree -S --size
-```
+This will display all files and folders within your Documents folder, formatted in a tree structure.
 
-**Only directories:**
-```bash
-supertree --dirs-only
-```
+## 🔧 Troubleshooting
 
-**Limit to 2 levels(only shows folders and files inside subfolders up to 2 levels):**
-```bash
-supertree -L 2
-```
+- **Permission Denied Error**: Ensure you have set the executable permission with `chmod +x`. 
+- **Command Not Found**: Double-check that you're in the correct directory and that the file name is correct.
 
-**show a specific path:**
-```bash
-supertree /home/user/projects
-```
-**show a specific path with size and size sorting:**
-```bash
-supertree -S --size /var/log
-```
-**show output as JSON:**
-```bash
-supertree --json /home/user/Documents
-```
-**show a path limited to 2 levels deep (only shows folders and files inside subfolders up to 2 levels):**
-```bash
-supertree -L 2 /etc
-```
+If you encounter any other issues, feel free to check the [GitHub Issues Page](https://github.com/S4NKX/SuperTree/issues) for support.
 
-## Uninstallation
-```bash
-sudo rm -f /usr/local/bin/supertree
-```
-## License
-This project is licensed under the MIT License
+## 🌐 Additional Resources
+
+For more information, visit the project's GitHub page [here](https://github.com/S4NKX/SuperTree).
+
+You can also explore more about command-line interfaces and tools that can enhance your productivity in Linux.
+
+## 💬 Feedback
+
+We value your input! If you have suggestions or feedback about SuperTree, please share it in our [GitHub Discussions](https://github.com/S4NKX/SuperTree/discussions). 
+
+## 📦 Related Topics
+
+This project relates to:
+- Linux command-line tools
+- File structure visualization
+- Command-line productivity
+
+Once again, grab your version of SuperTree by visiting our [Releases Page](https://github.com/S4NKX/SuperTree/releases). Happy organizing!
